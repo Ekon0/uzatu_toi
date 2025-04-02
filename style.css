@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f3e5ab, #e6af4b);
+    text-align: center;
+    color: #5a3e1b;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    color: #a64b00;
+}
+
+.details {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.hosts {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
