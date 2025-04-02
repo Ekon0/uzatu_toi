@@ -2,68 +2,22 @@
 
 body {
     font-family: 'Jost', sans-serif;
-    background-color: #fff8e1; /* Жұмсақ таза фон */
+    background: url('https://github.com/Ekon0/uzatu_toi/blob/main/IMG-20250402-WA0008.jpg') no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
     color: #4a2c10;
     margin: 0;
     padding: 0;
 }
 
+/* Контейнер ішіндегі фонды мөлдір қылу */
 .container {
     max-width: 750px;
     margin: 50px auto;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.9); /* Ақшыл мөлдір фон */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     border: 8px solid #c69c6d;
     position: relative;
-}
-
-/* Тақырып анимациясы (ұлғайып шығады) */
-h1 {
-    font-size: 50px;
-    color: #a64b00;
-    opacity: 0;
-    transform: scale(0.8);
-    animation: zoomIn 1.5s forwards;
-}
-
-/* Мәтін анимациясы (бір-бірден толқын тәрізді пайда болады) */
-p {
-    font-size: 22px;
-    line-height: 1.6;
-    font-weight: bold;
-    opacity: 0;
-    animation: fadeInText 2s ease-out forwards;
-}
-
-p:nth-child(2) { animation-delay: 0.5s; }
-p:nth-child(3) { animation-delay: 1s; }
-p:nth-child(4) { animation-delay: 1.5s; }
-
-/* Той уақыты мен орны (аздап айналып көрінеді) */
-.details {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    opacity: 0;
-    transform: rotate(-5deg);
-    animation: rotateIn 1.5s ease-out forwards 2s;
-}
-
-/* Анимациялар */
-@keyframes zoomIn {
-    from { opacity: 0; transform: scale(0.8); }
-    to { opacity: 1; transform: scale(1); }
-}
-
-@keyframes fadeInText {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes rotateIn {
-    from { opacity: 0; transform: rotate(-5deg); }
-    to { opacity: 1; transform: rotate(0deg); }
 }
