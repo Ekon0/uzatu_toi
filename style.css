@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+KZ&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #f3e5ab, #e6af4b);
+    font-family: 'Noto Sans KZ', sans-serif;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/7/7b/Kazakh_national_ornament_background.jpg') no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
     color: #5a3e1b;
     margin: 0;
@@ -8,26 +11,47 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 700px;
     margin: 50px auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid #c69c6d;
+    position: relative;
 }
 
 h1 {
-    font-size: 24px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
     color: #a64b00;
 }
 
 .details {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .hosts {
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+}
+
+/* Қазақи ою-өрнектер */
+.decor-top {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+}
+
+.decor-bottom {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
 }
