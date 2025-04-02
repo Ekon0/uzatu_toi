@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Noto+Sans+KZ:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
 
 body {
-    font-family: 'Noto Sans KZ', sans-serif;
+    font-family: 'Jost', sans-serif;
     background-color: #fff8e1; /* Жұмсақ таза фон */
     text-align: center;
     color: #4a2c10;
@@ -22,7 +22,6 @@ body {
 
 /* Тақырып анимациясы (ұлғайып шығады) */
 h1 {
-    font-family: 'Marck Script', cursive;
     font-size: 50px;
     color: #a64b00;
     opacity: 0;
@@ -32,7 +31,7 @@ h1 {
 
 /* Мәтін анимациясы (бір-бірден толқын тәрізді пайда болады) */
 p {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.6;
     font-weight: bold;
     opacity: 0;
@@ -46,7 +45,7 @@ p:nth-child(4) { animation-delay: 1.5s; }
 /* Той уақыты мен орны (аздап айналып көрінеді) */
 .details {
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     opacity: 0;
     transform: rotate(-5deg);
