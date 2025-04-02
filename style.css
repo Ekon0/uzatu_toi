@@ -2,10 +2,10 @@
 
 body {
     font-family: 'Noto Sans KZ', sans-serif;
-    background: url('https://upload.wikimedia.org/wikipedia/commons/d/da/Kazakh_carpet_pattern.jpg') no-repeat center center fixed;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/8/8d/Kazakh_ornament_background.jpg') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
-    color: #3e2723;
+    color: #4a2c10;
     margin: 0;
     padding: 0;
 }
@@ -13,19 +13,24 @@ body {
 .container {
     max-width: 750px;
     margin: 50px auto;
-    background: rgba(255, 247, 230, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-    border: 8px solid #8d5524;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border: 8px solid #c69c6d;
     position: relative;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     font-family: 'Great Vibes', cursive;
-    font-size: 40px;
+    font-size: 45px;
     color: #a64b00;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: bold;
 }
 
 .details {
@@ -54,4 +59,22 @@ h1 {
 
 .decor-bottom {
     bottom: -60px;
+}
+
+/* Қонақтарды күту батырмасы */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background: #a64b00;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background: #8c3d00;
 }
